@@ -19,7 +19,18 @@ public class PlatformGameLevel
             Map.AddLast(new Tile());
         }
 
-        Map.First.ValueRef.Texture = 'S';
-        Map.Last.ValueRef.Texture = 'F';
+        Map.First.ValueRef.Texture = "S";
+        Map.Last.ValueRef.Texture = "F";
+    }
+
+    public string MapGet()
+    {
+        string mapVisualized = "";
+        foreach (var tile in Map)
+        {
+            mapVisualized += tile.Texture;
+        }
+
+        return mapVisualized;
     }
 }

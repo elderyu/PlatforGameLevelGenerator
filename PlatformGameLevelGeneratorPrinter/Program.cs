@@ -11,6 +11,7 @@ namespace PlatformGameLevelGeneratorPrinter
             var level = new PlatformGameLevel(length);
 
             Console.WriteLine($"Length of the level: {level.Length}");
+            Console.WriteLine($"Level: {level.MapGet()}");
         }
     }
 }

@@ -2,5 +2,5 @@
 
 public class Tile
 {
-    public char Texture { get; set; } = '_';
+    public string Texture { get; set; } = "_";
 }

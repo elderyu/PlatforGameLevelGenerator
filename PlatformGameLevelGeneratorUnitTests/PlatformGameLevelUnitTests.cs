@@ -37,12 +37,12 @@ public class PlatformGameLevelUnitTests
     [Test]
     public void IsFirstTileAStartTile()
     {
-        Assert.AreEqual(_level.Map.First.ValueRef.Texture, 'S');
+        Assert.AreEqual(_level.Map.First.ValueRef.Texture, "S");
     }
     
     [Test]
     public void IsLastTileAFinishTile()
     {
-        Assert.AreEqual(_level.Map.Last.ValueRef.Texture, 'F');
+        Assert.AreEqual(_level.Map.Last.ValueRef.Texture, "F");
     }
 }
