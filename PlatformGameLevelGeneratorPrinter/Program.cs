@@ -1,3 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using PlatformGameLevelGeneratorCore;
 
-Console.WriteLine("Hello, World!");
+namespace PlatformGameLevelGeneratorPrinter
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var length = 10;
+
+            var level = new PlatformGameLevel(length);
+
+            Console.WriteLine($"Length of the level: {level.Length}");
+        }
+    }
+}
