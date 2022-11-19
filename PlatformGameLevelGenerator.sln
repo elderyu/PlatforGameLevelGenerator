@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformGameLevelGeneratorCore", "PlatformGameLevelGeneratorCore\PlatformGameLevelGeneratorCore.csproj", "{50808A22-3EF6-4CC6-820E-BE3C649DF0AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformGameLevelGeneratorPrinter", "PlatformGameLevelGeneratorPrinter\PlatformGameLevelGeneratorPrinter.csproj", "{03173C6E-2086-4CB9-B01B-E921B2412DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformGameLevelGeneratorUnitTests", "PlatformGameLevelGeneratorUnitTests\PlatformGameLevelGeneratorUnitTests.csproj", "{B868432B-ADEE-4E1B-8BA1-6DB941525065}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{50808A22-3EF6-4CC6-820E-BE3C649DF0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50808A22-3EF6-4CC6-820E-BE3C649DF0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50808A22-3EF6-4CC6-820E-BE3C649DF0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03173C6E-2086-4CB9-B01B-E921B2412DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03173C6E-2086-4CB9-B01B-E921B2412DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03173C6E-2086-4CB9-B01B-E921B2412DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03173C6E-2086-4CB9-B01B-E921B2412DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B868432B-ADEE-4E1B-8BA1-6DB941525065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B868432B-ADEE-4E1B-8BA1-6DB941525065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B868432B-ADEE-4E1B-8BA1-6DB941525065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B868432B-ADEE-4E1B-8BA1-6DB941525065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
